@@ -10,4 +10,4 @@ node_modules/
 
 # Python 캐시
 __pycache__/
-*.pyc
+*.pycfrontend/.streamlit/secrets.toml
