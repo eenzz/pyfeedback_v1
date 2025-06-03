@@ -60,7 +60,7 @@ if st.button("코드 실행 및 피드백"):
             linter_result = None
             try:
                 linter_response = requests.post(
-                    "http://localhost:5006/lint",
+                    "https://pyfeedback-v1.onrender.com/lint",
                     json={"language": "python", "code": processed_code}
                 )
                 linter_result = linter_response.json()
